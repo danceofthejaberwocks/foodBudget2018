@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:foodBudget2018"
+             x:Class="foodBudget2018.MainPage">
+    <StackLayout BackgroundColor="LightSteelBlue" 
+                 HorizontalOptions="Start" 
+                 VerticalOptions="Start">
+
+        <Button Text="Home" Style="{ StaticResource Menu}"/>
+        <Button Text="Plan Week" Style="{StaticResource Menu}"/>
+        <Button Text="Add Recipe" Style="{StaticResource Menu}"/>
+        <Button Text="View Recipes" Style="{StaticResource Menu}" />
+        <Button Text="Shopping List" Style="{StaticResource Menu}" />
+    </StackLayout>
+</ContentPage>
