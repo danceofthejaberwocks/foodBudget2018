@@ -10,16 +10,16 @@ namespace foodBudget2018
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new MainPage();
-		}
+            MainPage = new NavigationPage(new MainPage());
+        }
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
-		}
 
-		protected override void OnSleep ()
+
+        }
+
+        protected override void OnSleep ()
 		{
 			// Handle when your app sleeps
 		}
