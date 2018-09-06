@@ -1,19 +1,23 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace foodBudget2018
 {
-	public partial class MainPage : ContentPage
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class recipeAdd : ContentPage
 	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
+		public recipeAdd ()
+        {
+            new recipeAdd();
+        }
 
-       
-    }
-}
+           
+           
+		}
+	}
